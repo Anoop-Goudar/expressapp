@@ -5,7 +5,7 @@ var path = require('path');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.sendFile(path.resolve('../smallFullStackAPP/client/views/home.html'));
+  res.sendFile(path.resolve('../smallFullStackAPP/client/app/home.html'));
 });
 
 module.exports = router;
